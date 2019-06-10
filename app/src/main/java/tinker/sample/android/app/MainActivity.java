@@ -116,8 +116,15 @@ public class MainActivity extends AppCompatActivity {
                 showInfo(MainActivity.this);
             }
         });
-//        buildInfoButton.setText("我是有bug的版本");
-        buildInfoButton.setText("我热修复了");
+      /*
+        //这个为基础版
+//        buildInfoButton.setText("我是有bug的版本");  //这里为基础版显示文字
+        buildInfoButton.setText("我热修复了");       //这里为修复版本后显示文字   基础版要注释
+         */
+
+        //这个为修复版
+        //        buildInfoButton.setText("我是有bug的版本");  //这里为基础版显示文字
+        buildInfoButton.setText("我热修复了");       //这里为修复版本后显示文字   基础版要注释
     }
 
     private void askForRequiredPermissions() {
